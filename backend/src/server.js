@@ -39,6 +39,11 @@ app.use((req, res, next) => {
   express.urlencoded({ extended: true })(req, res, next);
 });
 
+// Root route
+app.get('/', (req, res) => {
+  res.json({ message: 'Imperium Labs API is running' });
+});
+
 // Health check
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
