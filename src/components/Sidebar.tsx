@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Menu, X, BarChart3, Shield, TrendingUp, DollarSign, Users, MessageCircle, HelpCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import echoTradesLogo from '@/assets/echo-trades-logo.png';
+import imperiumLabsLogo from '@/assets/image2_refined.png';
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -68,7 +68,7 @@ const Sidebar = () => {
         <div className="p-8 pt-16 border-b border-sidebar-border">
           <div className="flex flex-col items-center space-y-4">
             <img
-              src={echoTradesLogo}
+              src={imperiumLabsLogo}
               alt="Imperium Labs Logo"
               className="w-16 h-16 object-contain"
             />

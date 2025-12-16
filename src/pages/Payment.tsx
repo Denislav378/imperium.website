@@ -1,6 +1,6 @@
 import { ArrowLeft, Zap, Bot, TrendingUp, Crown, AlertTriangle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import echoTradesLogo from '@/assets/echo-trades-logo.png';
+import imperiumLabsLogo from '@/assets/image2_refined.png';
 
 // NOWPayments Payment Links
 // Replace these with your actual Payment Links from NOWPayments Dashboard
@@ -66,7 +66,7 @@ const Payment = () => {
 
           <div className="text-center">
             <img
-              src={echoTradesLogo}
+              src={imperiumLabsLogo}
               alt="Imperium Labs Logo"
               className="w-20 h-20 mx-auto mb-6 object-contain"
             />
