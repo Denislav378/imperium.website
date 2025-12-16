@@ -9,13 +9,13 @@ import echoTradesLogo from '@/assets/echo-trades-logo.png';
 // 2. Create a Payment Link for each plan
 // 3. Copy the Payment Link URL and paste it here
 
-// TODO: Replace these placeholder URLs with your actual NOWPayments Payment Links
-const NOWPAYMENTS_DISCORD_MONTHLY_URL = 'https://nowpayments.io/payment/?iid=YOUR_PAYMENT_LINK_ID_DISCORD';
-const NOWPAYMENTS_ECHOBOT_MONTHLY_URL = 'https://nowpayments.io/payment/?iid=YOUR_PAYMENT_LINK_ID_ECHOBOT';
-const NOWPAYMENTS_WALLET_MONTHLY_URL = 'https://nowpayments.io/payment/?iid=YOUR_PAYMENT_LINK_ID_WALLET';
-const NOWPAYMENTS_ALLIN_MONTHLY_URL = 'https://nowpayments.io/payment/?iid=YOUR_PAYMENT_LINK_ID_ALLIN';
-const NOWPAYMENTS_SMART_TRADER_URL = 'https://nowpayments.io/payment/?iid=YOUR_PAYMENT_LINK_ID_SMART_TRADER';
-const NOWPAYMENTS_MARKET_WATCHER_URL = 'https://nowpayments.io/payment/?iid=YOUR_PAYMENT_LINK_ID_MARKET_WATCHER';
+// NOWPayments Payment Links - Configured
+const NOWPAYMENTS_DISCORD_MONTHLY_URL = 'https://nowpayments.io/payment/?iid=5002333092';
+const NOWPAYMENTS_ECHOBOT_MONTHLY_URL = 'https://nowpayments.io/payment/?iid=5274831336';
+const NOWPAYMENTS_WALLET_MONTHLY_URL = 'https://nowpayments.io/payment/?iid=6069675036';
+const NOWPAYMENTS_ALLIN_MONTHLY_URL = 'https://nowpayments.io/payment/?iid=5130672221';
+const NOWPAYMENTS_SMART_TRADER_URL = 'https://nowpayments.io/payment/?iid=4401705666';
+const NOWPAYMENTS_MARKET_WATCHER_URL = 'https://nowpayments.io/payment/?iid=4621386074';
 
 const Payment = () => {
   const goBack = () => window.history.back();
